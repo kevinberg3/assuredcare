@@ -2,7 +2,13 @@ body {
 	margin-top: 125px; /* adjust this if the height of the menu bar changes */
 }
 
+.navbar-inverse {
+  background-color: #086FA1;
+}
+
 .nav {
+
+  font-size: 1.3em;
 	margin-top: 28px; /* this is a faux center fix for the nav options - adjust this if you wish to change the logo height or the font of the menu items */
 }
 
@@ -37,16 +43,18 @@ footer {
 body {
   font-family: 'Rufina', serif;
   
-  font-size: 1.3em;
+  font-size: 1.2em;
 }
 
 .nav li {
-  font-size: 1.3em;
+  font-size: 1.2em;
   
 }
 
 p {
-  font-size: 1.3em;
+  font-size: 1.2em;
 }
 
-
+.thumbnail img {
+  height: 6em;
+}
